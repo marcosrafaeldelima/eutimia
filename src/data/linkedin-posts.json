@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "text": "Título ou primeiras linhas do post de Flávia aqui - clique no link para ler na íntegra.",
+      "date": "há 2 dias",
+      "link": "https://www.linkedin.com/in/flaviaconti/",
+      "engagement": "234 curtidas"
+    },
+    {
+      "id": 2,
+      "text": "Título ou primeiras linhas do segundo post de Flávia - insights sobre liderança e gestão.",
+      "date": "há 5 dias",
+      "link": "https://www.linkedin.com/in/flaviaconti/",
+      "engagement": "156 curtidas"
+    },
+    {
+      "id": 3,
+      "text": "Título ou primeiras linhas do terceiro post - reflexão sobre equilíbrio dinâmico.",
+      "date": "há 10 dias",
+      "link": "https://www.linkedin.com/in/flaviaconti/",
+      "engagement": "89 curtidas"
+    }
+  ]
+}

@@ -4,6 +4,26 @@
  */
 
 /* ═══════════════════════════════════════════════════════
+   FAVICON THEME SWITCHER
+═══════════════════════════════════════════════════════ */
+function updateFavicon() {
+  const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const faviconLight = document.querySelector('link[media="(prefers-color-scheme: light)"]');
+  const faviconDark = document.querySelector('link[media="(prefers-color-scheme: dark)"]');
+  
+  if (faviconLight && faviconDark) {
+    faviconLight.rel = isDark ? "" : "icon";
+    faviconDark.rel = isDark ? "icon" : "";
+  }
+}
+
+// Atualizar favicon ao carregar
+document.addEventListener("DOMContentLoaded", updateFavicon);
+
+// Monitorar mudanças de tema do sistema
+window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateFavicon);
+
+/* ═══════════════════════════════════════════════════════
    SMOOTH SCROLL + ACTIVE NAV
 ═══════════════════════════════════════════════════════ */
 document.addEventListener("DOMContentLoaded", function () {
@@ -128,4 +148,54 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+/* ═══════════════════════════════════════════════════════
+   LINKEDIN FEED LOADER (via API Backend)
+═══════════════════════════════════════════════════════ */
+async function loadLinkedInFeed() {
+  const feedContainer = document.getElementById("linkedin-feed");
+  
+  if (!feedContainer) return;
+
+  try {
+    // Chamar API backend (segura - token nunca é exposto)
+    const response = await fetch("/api/linkedin-posts");
+    const data = await response.json();
+
+    feedContainer.innerHTML = "";
+
+    if (data.posts && data.posts.length > 0) {
+      data.posts.forEach((post) => {
+        const postEl = document.createElement("div");
+        postEl.className = "eco-feed-item";
+        postEl.innerHTML = `
+          <div class="eco-feed-date">${post.date}</div>
+          <div class="eco-feed-text">${post.text}</div>
+          <a href="${post.link}" target="_blank" style="font-size: 0.85rem; color: var(--orange); text-decoration: none; font-weight: 600;">Leia mais →</a>
+        `;
+        feedContainer.appendChild(postEl);
+      });
+    } else {
+      // Fallback se não houver posts
+      feedContainer.innerHTML = `
+        <div class="eco-feed-item">
+          <div class="eco-feed-date">Publicações de Flávia Conti</div>
+          <div class="eco-feed-text">Confira as últimas publicações sobre gestão do conhecimento e liderança no perfil da Flávia.</div>
+        </div>
+      `;
+    }
+  } catch (error) {
+    console.error("Erro ao carregar feed do LinkedIn:", error);
+    // Fallback se houver erro
+    feedContainer.innerHTML = `
+      <div class="eco-feed-item">
+        <div class="eco-feed-date">Feed LinkedIn</div>
+        <div class="eco-feed-text">Confira as publicações de Flávia diretamente no LinkedIn.</div>
+      </div>
+    `;
+  }
+}
+
+document.addEventListener("DOMContentLoaded", loadLinkedInFeed);
+
 console.log("✓ Eutimia - App initialized");
+

@@ -4,6 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Eutimia — Wireframe v2</title>
+  <!-- Favicon com suporte a tema claro/escuro -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon-light.svg" media="(prefers-color-scheme: light)" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon-dark.svg" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
   <link href="https://fonts.googleapis.com/css2?family=Froda&family=Inter:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -15,9 +19,9 @@
 
       <!-- Logo: SVG original como <img>. Fallback texto Froda -->
       <a href="#" class="nav-logo" style="text-decoration:none;">
-        <img src="images/logo-light-orange.svg" alt="eutimia"
+        <img src="images/logo-primary.svg" alt="eutimia"
           onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
-        <span class="nav-logo-fallback" style="display:none;">eutimia</span>
+        <img src="images/logo-primary.svg" alt="eutimia" class="nav-logo-fallback" style="display:none;height:34px;width:auto;" />
       </a>
 
       <ul class="nav-links">
@@ -254,21 +258,14 @@
         </div>
 
         <div>
-          <div class="eco-col-label">Feed LinkedIn <span style="opacity:.5;font-weight:400;letter-spacing:0;">(via API)</span></div>
-          <div class="eco-feed-item">
-            <div class="eco-feed-date">há 2 dias</div>
-            <div class="eco-feed-text">Post recente puxado via API do LinkedIn. Primeiras 2–3 linhas do texto aparecerão aqui com link para continuar lendo.</div>
-          </div>
-          <div class="eco-feed-item">
-            <div class="eco-feed-date">há 5 dias</div>
-            <div class="eco-feed-text">Post recente puxado via API do LinkedIn. Primeiras 2–3 linhas do texto aparecerão aqui com link para continuar lendo.</div>
-          </div>
-          <div class="eco-video-slot">
-            <div class="play-icon">▶</div>
-            Vídeos — disponível em 2 semanas
+          <div class="eco-col-label">Feed LinkedIn</div>
+          <div id="linkedin-feed">
+            <div class="eco-feed-item">
+              <div class="eco-feed-date">Carregando publicações...</div>
+            </div>
           </div>
           <br/>
-          <a href="#" class="btn btn-outline-w btn-sm">Acompanhe no LinkedIn →</a>
+          <a href="https://www.linkedin.com/in/flaviaconti/" target="_blank" class="btn btn-outline-w btn-sm">Ver todas as publicações →</a>
         </div>
       </div>
     </div>
