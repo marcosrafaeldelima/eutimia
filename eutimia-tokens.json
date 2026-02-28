@@ -1,0 +1,280 @@
+{
+  "global": {
+    "color": {
+      "laranja-suave": {
+        "value": "#ED9A6D",
+        "type": "color",
+        "description": "Laranja Suave — cor primária. CMYK 0,35,54,7 | RGB 237,154,109"
+      },
+      "lilas-mudo": {
+        "value": "#B4A0D1",
+        "type": "color",
+        "description": "Lilás Mudo. CMYK 14,23,0,18 | RGB 180,160,209"
+      },
+      "lima-suave": {
+        "value": "#DAF491",
+        "type": "color",
+        "description": "Lima Suave. CMYK 11,0,41,4 | RGB 218,244,145"
+      },
+      "chumbo": {
+        "value": "#3C3738",
+        "type": "color",
+        "description": "Chumbo — texto e ícones. CMYK 0,8,7,76 | RGB 60,55,56"
+      },
+      "areia": {
+        "value": "#F4EFE8",
+        "type": "color",
+        "description": "Areia — fundo principal. CMYK 0,2,5,4 | RGB 244,239,232"
+      }
+    },
+    "fontFamilies": {
+      "principal": {
+        "value": "Inter",
+        "type": "fontFamilies",
+        "description": "Tipografia principal — headlines, CTAs, UI. Peso bold. Âncora visual densa e assertiva."
+      },
+      "apoio": {
+        "value": "Roboto Mono",
+        "type": "fontFamilies",
+        "description": "Tipografia de apoio — body, body, labels. Estrutura monoespaçada acadêmica. Rigor + fluidez."
+      }
+    },
+    "fontWeights": {
+      "regular": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "bold": {
+        "value": "700",
+        "type": "fontWeights"
+      }
+    },
+    "fontSize": {
+      "display": {
+        "value": "96",
+        "type": "fontSizes",
+        "description": "Display / Hero — φ³ × base + snap. Inter Bold. Uso: hero headline principal."
+      },
+      "h1": {
+        "value": "64",
+        "type": "fontSizes",
+        "description": "H1 — φ³ × 16 → snap 64px (4rem). Inter Bold."
+      },
+      "h2": {
+        "value": "40",
+        "type": "fontSizes",
+        "description": "H2 — φ² × 16 → snap 40px (2.5rem). Inter Bold."
+      },
+      "h3": {
+        "value": "24",
+        "type": "fontSizes",
+        "description": "H3 — φ¹ × 16 → snap 24px (1.5rem). Inter Bold."
+      },
+      "lead": {
+        "value": "18",
+        "type": "fontSizes",
+        "description": "Lead / Intro — 18px (1.125rem). Roboto Mono Regular. Sub-headlines e parágrafos de abertura."
+      },
+      "body": {
+        "value": "16",
+        "type": "fontSizes",
+        "description": "Body — base 16px (1rem). Roboto Mono Regular. Corpo de texto padrão."
+      },
+      "small": {
+        "value": "14",
+        "type": "fontSizes",
+        "description": "Small — 14px (0.875rem). Roboto Mono Regular. Textos secundários, metadados."
+      },
+      "label": {
+        "value": "12",
+        "type": "fontSizes",
+        "description": "Label / Caps / Tag — 12px (0.75rem). Roboto Mono Bold. Tags, badges, labels de seção."
+      }
+    },
+    "lineHeights": {
+      "tight": {
+        "value": "0.9",
+        "type": "lineHeights",
+        "description": "Tight — Inter Bold headlines. Blocos densos e magnéticos. Uso: Display, H1, H2."
+      },
+      "snug": {
+        "value": "1.2",
+        "type": "lineHeights",
+        "description": "Snug — Roboto Mono. Ritmo e fluidez acadêmica. Uso: H3, Lead, Labels."
+      },
+      "normal": {
+        "value": "1.6",
+        "type": "lineHeights",
+        "description": "Normal — Body text. WCAG AA para leitura confortável. Uso: body, small."
+      }
+    },
+    "letterSpacing": {
+      "headlines": {
+        "value": "-0.08em",
+        "type": "letterSpacing",
+        "description": "Headlines Inter Bold — -80pt tracking → -0.08em. Cria massa visual densa e coesa."
+      },
+      "body-mono": {
+        "value": "-0.02em",
+        "type": "letterSpacing",
+        "description": "Roboto Mono body — -20pt tracking → -0.02em. Compensa o espaço natural monoespaçado."
+      },
+      "labels": {
+        "value": "0.08em",
+        "type": "letterSpacing",
+        "description": "Labels / Caps / Tags — +0.08em. Aumenta legibilidade em tamanhos pequenos e uppercase."
+      }
+    },
+    "spacing": {
+      "0": {
+        "value": "0",
+        "type": "spacing"
+      },
+      "1": {
+        "value": "8",
+        "type": "spacing",
+        "description": "8px — base do grid"
+      },
+      "2": {
+        "value": "16",
+        "type": "spacing",
+        "description": "16px"
+      },
+      "3": {
+        "value": "24",
+        "type": "spacing",
+        "description": "24px"
+      },
+      "4": {
+        "value": "32",
+        "type": "spacing",
+        "description": "32px"
+      },
+      "5": {
+        "value": "40",
+        "type": "spacing",
+        "description": "40px"
+      },
+      "6": {
+        "value": "48",
+        "type": "spacing",
+        "description": "48px"
+      },
+      "8": {
+        "value": "64",
+        "type": "spacing",
+        "description": "64px"
+      },
+      "10": {
+        "value": "80",
+        "type": "spacing",
+        "description": "80px"
+      },
+      "12": {
+        "value": "96",
+        "type": "spacing",
+        "description": "96px"
+      },
+      "16": {
+        "value": "128",
+        "type": "spacing",
+        "description": "128px"
+      },
+      "20": {
+        "value": "160",
+        "type": "spacing",
+        "description": "160px — section padding"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "value": {
+        "fontFamily": "{global.fontFamilies.principal}",
+        "fontWeight": "{global.fontWeights.bold}",
+        "fontSize": "{global.fontSize.display}",
+        "lineHeight": "{global.lineHeights.tight}",
+        "letterSpacing": "{global.letterSpacing.headlines}"
+      },
+      "type": "typography",
+      "description": "Display / Hero — Inter Bold 96px, lh 0.9, ls -0.08em"
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{global.fontFamilies.principal}",
+        "fontWeight": "{global.fontWeights.bold}",
+        "fontSize": "{global.fontSize.h1}",
+        "lineHeight": "{global.lineHeights.tight}",
+        "letterSpacing": "{global.letterSpacing.headlines}"
+      },
+      "type": "typography",
+      "description": "H1 — Inter Bold 64px, lh 0.9, ls -0.08em"
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{global.fontFamilies.principal}",
+        "fontWeight": "{global.fontWeights.bold}",
+        "fontSize": "{global.fontSize.h2}",
+        "lineHeight": "{global.lineHeights.tight}",
+        "letterSpacing": "{global.letterSpacing.headlines}"
+      },
+      "type": "typography",
+      "description": "H2 — Inter Bold 40px, lh 0.9, ls -0.08em"
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{global.fontFamilies.principal}",
+        "fontWeight": "{global.fontWeights.bold}",
+        "fontSize": "{global.fontSize.h3}",
+        "lineHeight": "{global.lineHeights.snug}",
+        "letterSpacing": "{global.letterSpacing.headlines}"
+      },
+      "type": "typography",
+      "description": "H3 — Inter Bold 24px, lh 1.2, ls -0.08em"
+    },
+    "lead": {
+      "value": {
+        "fontFamily": "{global.fontFamilies.apoio}",
+        "fontWeight": "{global.fontWeights.regular}",
+        "fontSize": "{global.fontSize.lead}",
+        "lineHeight": "{global.lineHeights.snug}",
+        "letterSpacing": "{global.letterSpacing.body-mono}"
+      },
+      "type": "typography",
+      "description": "Lead — Roboto Mono Regular 18px, lh 1.2, ls -0.02em"
+    },
+    "body": {
+      "value": {
+        "fontFamily": "{global.fontFamilies.apoio}",
+        "fontWeight": "{global.fontWeights.regular}",
+        "fontSize": "{global.fontSize.body}",
+        "lineHeight": "{global.lineHeights.normal}",
+        "letterSpacing": "{global.letterSpacing.body-mono}"
+      },
+      "type": "typography",
+      "description": "Body — Roboto Mono Regular 16px, lh 1.6, ls -0.02em"
+    },
+    "small": {
+      "value": {
+        "fontFamily": "{global.fontFamilies.apoio}",
+        "fontWeight": "{global.fontWeights.regular}",
+        "fontSize": "{global.fontSize.small}",
+        "lineHeight": "{global.lineHeights.normal}",
+        "letterSpacing": "{global.letterSpacing.body-mono}"
+      },
+      "type": "typography",
+      "description": "Small — Roboto Mono Regular 14px, lh 1.6, ls -0.02em"
+    },
+    "label": {
+      "value": {
+        "fontFamily": "{global.fontFamilies.apoio}",
+        "fontWeight": "{global.fontWeights.bold}",
+        "fontSize": "{global.fontSize.label}",
+        "lineHeight": "{global.lineHeights.snug}",
+        "letterSpacing": "{global.letterSpacing.labels}"
+      },
+      "type": "typography",
+      "description": "Label / Caps / Tag — Roboto Mono Bold 12px UPPERCASE, lh 1.2, ls +0.08em"
+    }
+  }
+}
