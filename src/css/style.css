@@ -278,7 +278,7 @@ nav {
   align-items: stretch;
   position: relative;
   overflow: hidden;
-  padding: var(--sp-12) 0 var(--sp-10);
+  padding: 0;
 }
 /* ── Animated gradient blobs (hero) ──────────────────── */
 :root {
@@ -380,23 +380,25 @@ nav {
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: var(--sp-8);
-  align-items: center;
-  align-content: center;
+  gap: 0;
+  align-items: stretch;
+  min-height: 100vh;
   position: relative;
+  z-index: 2;
 }
 
 .hero-tag-pill {
   display: inline-flex;
   align-items: center;
+  align-self: flex-start;
   gap: 8px;
   font-family: var(--font-body);
   font-size: var(--sz-label);
   font-weight: 700;
   letter-spacing: var(--ls-label);
   text-transform: uppercase;
-  color: var(--orange);
-  border: 1px solid var(--orange);
+  color: var(--dark);
+  border: 1px solid var(--dark);
   border-radius: 100px;
   padding: 6px 14px;
   margin-bottom: var(--sp-3);
@@ -405,13 +407,13 @@ nav {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--orange);
+  background: var(--dark);
 }
 
 .hero-headline {
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: clamp(2rem, 4.5vw, 4rem);
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
   line-height: var(--lh-tight);
   letter-spacing: var(--ls-headline);
   color: var(--dark);
@@ -462,23 +464,27 @@ nav {
   color: var(--mid);
 }
 
+/* hero left content */
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--sp-10) 0 var(--sp-8) 0;
+  z-index: 2;
+}
+
 /* hero visual */
 .hero-visual {
-  position: relative;
   align-self: stretch;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  overflow: hidden;
+  margin-right: calc(-1 * var(--sp-4));
 }
 .hero-photo {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 110%;
-  width: auto;
-  max-width: none;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   object-position: bottom right;
+  display: block;
 }
 .h-card {
   position: absolute;
@@ -1287,6 +1293,15 @@ footer {
   .quem-grid,
   .servicos-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-visual {
+    display: none;
+  }
+
+  .hero-left {
+    padding-top: var(--sp-10);
+    padding-bottom: var(--sp-8);
   }
 
   .quem-photo-wrap {
