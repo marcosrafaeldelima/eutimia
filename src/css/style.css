@@ -883,6 +883,20 @@ nav {
   letter-spacing: var(--ls-body);
   opacity: 0.7;
 }
+.eco-linkedin-cta {
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(218, 244, 145, 0.5);
+  margin-bottom: 12px;
+}
+.eco-linkedin-text {
+  font-family: var(--font-body);
+  font-size: var(--sz-small);
+  line-height: var(--lh-snug);
+  letter-spacing: var(--ls-body);
+  opacity: 0.7;
+  margin-bottom: var(--sp-4);
+}
 .eco-video-slot {
   margin-top: 16px;
   height: 120px;
@@ -911,30 +925,28 @@ nav {
 }
 .quem-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--sp-10);
-  align-items: center;
+  grid-template-columns: 55% 45%;
+  gap: var(--sp-6);
+  align-items: start;
 }
 .quem-photo-wrap {
   position: relative;
-  height: 440px;
+  height: 520px;
+  border-radius: 24px;
+  overflow: hidden;
 }
 .quem-photo-bg {
   position: absolute;
   inset: 0;
-  border-radius: 24px;
   background: linear-gradient(135deg, rgba(237, 154, 109, 0.18), rgba(180, 160, 209, 0.14));
 }
 .quem-photo-wrap img {
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200px;
-  height: 300px;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: top center;
-  border-radius: 16px 16px 0 0;
 }
 .quem-badge {
   position: absolute;
@@ -963,6 +975,12 @@ nav {
 .quem-text .h2 {
   margin: var(--sp-2) 0 var(--sp-3);
 }
+.quem-text .h2 em {
+  font-style: normal;
+  background: var(--lime);
+  padding: 0 6px 2px;
+  border-radius: 4px;
+}
 .quem-text .body-copy + .body-copy {
   margin-top: var(--sp-3);
 }
@@ -986,6 +1004,62 @@ nav {
   height: 40px;
   background: var(--border);
   border-radius: 8px;
+}
+
+/* ═══════════════════════════════════════════════════════
+   LOGOS CAROUSEL (depoimentos + parceiros)
+═══════════════════════════════════════════════════════ */
+.logos-strip {
+  margin-top: var(--sp-8);
+  padding-top: var(--sp-6);
+  border-top: 1px solid var(--border);
+}
+.logos-strip-label {
+  font-family: var(--font-body);
+  font-size: var(--sz-small);
+  color: var(--mid);
+  text-align: center;
+  margin-bottom: var(--sp-4);
+  letter-spacing: var(--ls-body);
+}
+.logos-carousel {
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 12%, black 88%, transparent 100%);
+}
+.logos-track {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-6);
+  width: max-content;
+  animation: logos-scroll 18s linear infinite;
+}
+.logos-carousel:hover .logos-track {
+  animation-play-state: paused;
+}
+.logo-item {
+  font-family: var(--font-heading);
+  font-size: var(--sz-h4);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--mid);
+  white-space: nowrap;
+  padding: 10px 24px;
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  user-select: none;
+  transition: color 0.2s, border-color 0.2s;
+}
+.logo-item:hover {
+  color: var(--dark);
+  border-color: var(--dark);
+}
+.parceiros-carousel .logos-track {
+  animation-duration: 12s;
+}
+@keyframes logos-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -1213,6 +1287,10 @@ footer {
   .quem-grid,
   .servicos-grid {
     grid-template-columns: 1fr;
+  }
+
+  .quem-photo-wrap {
+    height: 300px;
   }
 
   .depo-grid {
