@@ -10,6 +10,11 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
+  console.log("Environment Variables:", {
+    LINKEDIN_ACCESS_TOKEN: process.env.LINKEDIN_ACCESS_TOKEN ? "Loaded" : "Missing",
+    LINKEDIN_PROFILE_ID: process.env.LINKEDIN_PROFILE_ID ? "Loaded" : "Missing"
+  });
+
   try {
     const token = process.env.LINKEDIN_ACCESS_TOKEN;
     const profileId = process.env.LINKEDIN_PROFILE_ID;
