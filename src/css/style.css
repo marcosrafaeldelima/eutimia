@@ -635,9 +635,9 @@ nav {
   border-color: rgba(180, 160, 209, 0.9);
 }
 .triade-card-icon {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -934,6 +934,11 @@ nav {
   grid-template-columns: 55% 45%;
   gap: var(--sp-6);
   align-items: start;
+  width: 100%;
+  min-width: 0;
+}
+.quem-grid > * {
+  min-width: 0;
 }
 .quem-photo-wrap {
   position: relative;
@@ -952,7 +957,7 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: top center;
+  object-position: center;
 }
 .quem-badge {
   position: absolute;
@@ -983,9 +988,19 @@ nav {
 }
 .quem-text .h2 em {
   font-style: normal;
+  position: relative;
+  isolation: isolate;
+}
+.quem-text .h2 em::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 100%;
+  height: 8px;
   background: var(--lime);
-  padding: 0 6px 2px;
-  border-radius: 4px;
+  border-radius: 2px;
+  z-index: -1;
 }
 .quem-text .body-copy + .body-copy {
   margin-top: var(--sp-3);
@@ -1059,6 +1074,18 @@ nav {
 .logo-item:hover {
   color: var(--dark);
   border-color: var(--dark);
+}
+.logo-img {
+  width: 120px;
+  height: 80px;
+  object-fit: contain;
+  filter: grayscale(1) opacity(0.45);
+  user-select: none;
+  flex-shrink: 0;
+  transition: filter 0.2s;
+}
+.logo-img:hover {
+  filter: grayscale(0.2) opacity(0.9);
 }
 .parceiros-carousel .logos-track {
   animation-duration: 12s;
@@ -1305,7 +1332,30 @@ footer {
   }
 
   .quem-photo-wrap {
-    height: 300px;
+    height: 340px;
+  }
+
+  .quem-badge {
+    top: 16px;
+    right: 16px;
+    padding: 10px 14px;
+    max-width: calc(100% - 32px);
+  }
+
+  .quem-badge-name {
+    font-size: var(--sz-small);
+  }
+
+  .quem-badge-role {
+    font-size: 10px;
+  }
+
+  .quem-text {
+    padding-top: var(--sp-2);
+  }
+
+  .logo-img {
+    height: 90px;
   }
 
   .depo-grid {

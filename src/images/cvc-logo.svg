@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 700 700"
+   version="1.1"
+   id="svg60"
+   sodipodi:docname="cvc-logo.svg"
+   width="700"
+   height="700"
+   style="fill:none"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-0.png"
+   inkscape:export-xdpi="561.73712"
+   inkscape:export-ydpi="561.73712">
+  <metadata
+     id="metadata64">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview62"
+     showgrid="false"
+     inkscape:zoom="0.34302326"
+     inkscape:cx="15.086893"
+     inkscape:cy="71.787858"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg60" />
+  <defs
+     id="defs58">
+    <linearGradient
+       id="paint0_linear"
+       x1="4.7244802"
+       y1="37.157902"
+       x2="38.808399"
+       y2="37.157902"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(8.2867908,0,0,8.2867908,0,343.66786)">
+      <stop
+         stop-color="#4BE641"
+         id="stop12" />
+      <stop
+         offset="0.0267621"
+         stop-color="#43CB4E"
+         id="stop14" />
+      <stop
+         offset="0.0755027"
+         stop-color="#38A163"
+         id="stop16" />
+      <stop
+         offset="0.1299"
+         stop-color="#2D7A77"
+         id="stop18" />
+      <stop
+         offset="0.1888"
+         stop-color="#235987"
+         id="stop20" />
+      <stop
+         offset="0.2534"
+         stop-color="#1B3D95"
+         id="stop22" />
+      <stop
+         offset="0.3258"
+         stop-color="#1527A1"
+         id="stop24" />
+      <stop
+         offset="0.4093"
+         stop-color="#1015A9"
+         id="stop26" />
+      <stop
+         offset="0.5111"
+         stop-color="#0D09B0"
+         id="stop28" />
+      <stop
+         offset="0.6503"
+         stop-color="#0B02B3"
+         id="stop30" />
+      <stop
+         offset="1"
+         stop-color="#0A00B4"
+         id="stop32" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear"
+       x1="8.2343998"
+       y1="5.8421102"
+       x2="42.318298"
+       y2="5.8421102"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(8.2867908,0,0,8.2867908,0,343.66786)">
+      <stop
+         stop-color="#0A00B4"
+         id="stop35" />
+      <stop
+         offset="0.3292"
+         stop-color="#0B02B3"
+         id="stop37" />
+      <stop
+         offset="0.4696"
+         stop-color="#0D09AF"
+         id="stop39" />
+      <stop
+         offset="0.574"
+         stop-color="#1016A9"
+         id="stop41" />
+      <stop
+         offset="0.6606"
+         stop-color="#1527A0"
+         id="stop43" />
+      <stop
+         offset="0.7362"
+         stop-color="#1C3F95"
+         id="stop45" />
+      <stop
+         offset="0.8042"
+         stop-color="#245B86"
+         id="stop47" />
+      <stop
+         offset="0.8663"
+         stop-color="#2D7D76"
+         id="stop49" />
+      <stop
+         offset="0.9241"
+         stop-color="#38A462"
+         id="stop51" />
+      <stop
+         offset="0.9761"
+         stop-color="#45D04C"
+         id="stop53" />
+      <stop
+         offset="1"
+         stop-color="#4BE641"
+         id="stop55" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear-8"
+       x1="8.2343998"
+       y1="5.8421102"
+       x2="42.318298"
+       y2="5.8421102"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(11.538135,0,0,11.538135,81.830509,842.40464)">
+      <stop
+         stop-color="#0A00B4"
+         id="stop35-1" />
+      <stop
+         offset="0.3292"
+         stop-color="#0B02B3"
+         id="stop37-8" />
+      <stop
+         offset="0.4696"
+         stop-color="#0D09AF"
+         id="stop39-9" />
+      <stop
+         offset="0.574"
+         stop-color="#1016A9"
+         id="stop41-0" />
+      <stop
+         offset="0.6606"
+         stop-color="#1527A0"
+         id="stop43-4" />
+      <stop
+         offset="0.7362"
+         stop-color="#1C3F95"
+         id="stop45-9" />
+      <stop
+         offset="0.8042"
+         stop-color="#245B86"
+         id="stop47-0" />
+      <stop
+         offset="0.8663"
+         stop-color="#2D7D76"
+         id="stop49-5" />
+      <stop
+         offset="0.9241"
+         stop-color="#38A462"
+         id="stop51-8" />
+      <stop
+         offset="0.9761"
+         stop-color="#45D04C"
+         id="stop53-4" />
+      <stop
+         offset="1"
+         stop-color="#4BE641"
+         id="stop55-0" />
+    </linearGradient>
+    <linearGradient
+       id="paint0_linear-3"
+       x1="4.7244802"
+       y1="37.157902"
+       x2="38.808399"
+       y2="37.157902"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(11.538135,0,0,11.538135,81.830509,842.40464)">
+      <stop
+         stop-color="#4BE641"
+         id="stop12-1" />
+      <stop
+         offset="0.0267621"
+         stop-color="#43CB4E"
+         id="stop14-8" />
+      <stop
+         offset="0.0755027"
+         stop-color="#38A163"
+         id="stop16-5" />
+      <stop
+         offset="0.1299"
+         stop-color="#2D7A77"
+         id="stop18-3" />
+      <stop
+         offset="0.1888"
+         stop-color="#235987"
+         id="stop20-3" />
+      <stop
+         offset="0.2534"
+         stop-color="#1B3D95"
+         id="stop22-1" />
+      <stop
+         offset="0.3258"
+         stop-color="#1527A1"
+         id="stop24-2" />
+      <stop
+         offset="0.4093"
+         stop-color="#1015A9"
+         id="stop26-9" />
+      <stop
+         offset="0.5111"
+         stop-color="#0D09B0"
+         id="stop28-8" />
+      <stop
+         offset="0.6503"
+         stop-color="#0B02B3"
+         id="stop30-3" />
+      <stop
+         offset="1"
+         stop-color="#0A00B4"
+         id="stop32-9" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear-8-0"
+       x1="8.2343998"
+       y1="5.8421102"
+       x2="42.318298"
+       y2="5.8421102"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(9.0480225,0,0,9.0480225,132.84743,155.46746)">
+      <stop
+         stop-color="#0A00B4"
+         id="stop35-1-5" />
+      <stop
+         offset="0.3292"
+         stop-color="#0B02B3"
+         id="stop37-8-5" />
+      <stop
+         offset="0.4696"
+         stop-color="#0D09AF"
+         id="stop39-9-3" />
+      <stop
+         offset="0.574"
+         stop-color="#1016A9"
+         id="stop41-0-4" />
+      <stop
+         offset="0.6606"
+         stop-color="#1527A0"
+         id="stop43-4-7" />
+      <stop
+         offset="0.7362"
+         stop-color="#1C3F95"
+         id="stop45-9-1" />
+      <stop
+         offset="0.8042"
+         stop-color="#245B86"
+         id="stop47-0-7" />
+      <stop
+         offset="0.8663"
+         stop-color="#2D7D76"
+         id="stop49-5-2" />
+      <stop
+         offset="0.9241"
+         stop-color="#38A462"
+         id="stop51-8-5" />
+      <stop
+         offset="0.9761"
+         stop-color="#45D04C"
+         id="stop53-4-7" />
+      <stop
+         offset="1"
+         stop-color="#4BE641"
+         id="stop55-0-3" />
+    </linearGradient>
+    <linearGradient
+       id="paint0_linear-3-6"
+       x1="4.7244802"
+       y1="37.157902"
+       x2="38.808399"
+       y2="37.157902"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(9.0480225,0,0,9.0480225,132.84743,155.46746)">
+      <stop
+         stop-color="#4BE641"
+         id="stop12-1-1" />
+      <stop
+         offset="0.0267621"
+         stop-color="#43CB4E"
+         id="stop14-8-7" />
+      <stop
+         offset="0.0755027"
+         stop-color="#38A163"
+         id="stop16-5-4" />
+      <stop
+         offset="0.1299"
+         stop-color="#2D7A77"
+         id="stop18-3-1" />
+      <stop
+         offset="0.1888"
+         stop-color="#235987"
+         id="stop20-3-3" />
+      <stop
+         offset="0.2534"
+         stop-color="#1B3D95"
+         id="stop22-1-3" />
+      <stop
+         offset="0.3258"
+         stop-color="#1527A1"
+         id="stop24-2-1" />
+      <stop
+         offset="0.4093"
+         stop-color="#1015A9"
+         id="stop26-9-2" />
+      <stop
+         offset="0.5111"
+         stop-color="#0D09B0"
+         id="stop28-8-5" />
+      <stop
+         offset="0.6503"
+         stop-color="#0B02B3"
+         id="stop30-3-8" />
+      <stop
+         offset="1"
+         stop-color="#0A00B4"
+         id="stop32-9-8" />
+    </linearGradient>
+  </defs>
+  <rect
+     style="fill:#fee600;fill-opacity:1;fill-rule:evenodd;stroke-width:0.5967232"
+     id="rect984"
+     width="716.06781"
+     height="716.06781"
+     x="0.71186388"
+     y="732.44067"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-4.png"
+     inkscape:export-xdpi="93.845863"
+     inkscape:export-ydpi="93.845863" />
+  <path
+     d="m 525.38874,1210.6038 c -6.23988,-2.9365 -14.32576,-5.3284 -22.1913,-6.5248 -8.89827,-1.3408 -17.90723,1.7769 -24.07311,8.3374 -56.75161,60.4275 -124.98578,93.7035 -192.2231,93.7035 -60.47945,0 -112.09808,-36.7559 -134.73215,-96.1322 -1.8092,-4.7481 -6.68301,-6.9599 -11.8893,-5.7634 -2.06763,0.4708 -4.28304,1.8484 -3.91384,3.7337 15.50769,73.9836 72.36903,123.6819 148.35694,129.7719 92.89924,7.4304 187.34805,-36.3222 243.50889,-116.2872 2.69522,-3.8422 1.21838,-8.9179 -2.84303,-10.8389 z"
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="fill:url(#paint0_linear-3);stroke-width:11.53813553"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-4.png"
+     inkscape:export-xdpi="93.845863"
+     inkscape:export-ydpi="93.845863" />
+  <path
+     d="m 565.08103,1004.9989 c 24.70196,0 45.78448,6.6331 62.58516,22.91 1.77227,1.7031 1.73533,4.4942 -0.14763,6.1257 l -26.58503,23.3439 c -0.81225,0.7258 -1.80915,1.0511 -2.80609,1.0511 -1.03375,0 -2.10457,-0.3623 -2.95378,-1.1227 -8.01202,-7.0694 -17.24368,-10.0416 -28.28336,-10.0416 -24.18514,0 -40.20929,17.6904 -40.20929,40.3096 0,25.084 16.02415,46.2529 43.05231,46.2529 11.5935,0 22.48669,-4.531 30.9049,-12.2154 0.84918,-0.7614 1.9199,-1.1595 2.95365,-1.1595 0.96007,0 1.9569,0.3253 2.73227,0.9784 l 27.80343,23.1998 c 1.99384,1.7029 2.03077,4.531 0.18469,6.2708 -17.98219,16.7107 -41.31686,24.9028 -66.94196,24.9028 -51.10128,0 -91.53196,-34.4366 -91.53196,-85.2945 0.0371,-48.5374 40.35693,-85.5113 89.24282,-85.5113 z"
+     id="path4"
+     inkscape:connector-curvature="0"
+     style="fill:#0a00b4;stroke-width:11.53813553"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-4.png"
+     inkscape:export-xdpi="93.845863"
+     inkscape:export-ydpi="93.845863" />
+  <path
+     d="m 455.27143,1007.6815 c 3.13835,0 5.20601,3.1901 3.8768,5.9813 l -66.01881,138.798 c -6.09213,12.7957 -23.187,20.9509 -33.52648,20.9509 -14.39954,0 -27.50679,-8.2279 -33.5621,-21.0606 l -65.57578,-138.6883 c -1.32918,-2.7912 0.84921,-5.9457 3.87674,-5.9457 h 43.64303 c 1.66145,0 3.28608,1.0154 3.95072,2.5742 l 44.86135,104.6509 c 0.55388,1.305 1.80927,1.9581 3.02772,1.9581 1.21839,0 2.47485,-0.6531 3.02873,-1.9938 l 44.63985,-104.6509 c 0.66463,-1.5588 2.32608,-2.5741 3.95065,-2.5741 z"
+     id="path6"
+     inkscape:connector-curvature="0"
+     style="fill:#0a00b4;stroke-width:11.53813553"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-4.png"
+     inkscape:export-xdpi="93.845863"
+     inkscape:export-ydpi="93.845863" />
+  <path
+     d="m 171.0738,1004.9989 c 24.70172,0 45.78513,6.6331 62.58474,22.91 1.7722,1.7031 1.73526,4.4942 -0.14784,6.1257 l -26.58491,23.3439 c -0.81243,0.7258 -1.80931,1.0511 -2.80614,1.0511 -1.03382,0 -2.10451,-0.3623 -2.95372,-1.1227 -8.01215,-7.0694 -17.24291,-10.0416 -28.28295,-10.0416 -24.1847,0 -40.20935,17.6904 -40.20935,40.3096 0,25.084 16.02465,46.2529 43.05238,46.2529 11.59403,0 22.48614,-4.531 30.90435,-12.2154 0.8492,-0.7614 1.91989,-1.1595 2.95371,-1.1595 0.96114,0 1.95808,0.3253 2.73335,0.9784 l 27.80234,23.1998 c 1.99372,1.7029 2.03072,4.531 0.1847,6.2708 -17.98112,16.7107 -41.31698,24.9028 -66.94141,24.9028 -51.1017,0 -91.532562,-34.4366 -91.532562,-85.2945 0.03706,-48.5374 40.320172,-85.5113 89.243292,-85.5113 z"
+     id="path8"
+     inkscape:connector-curvature="0"
+     style="fill:#0a00b4;stroke-width:11.53813553"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-4.png"
+     inkscape:export-xdpi="93.845863"
+     inkscape:export-ydpi="93.845863" />
+  <path
+     d="m 181.04314,970.34511 c 6.23992,2.93653 14.32612,5.32842 22.19051,6.52492 8.89934,1.34067 17.90826,-1.77699 24.07431,-8.33748 56.75022,-60.42721 124.98445,-93.70393 192.22186,-93.70393 60.4805,0 112.09874,36.75659 134.73304,96.13267 1.80915,4.7492 6.68295,6.95976 11.88893,5.76336 2.06759,-0.4708 4.28292,-1.84854 3.91374,-3.73374 -15.50724,-73.98402 -72.36946,-123.68158 -148.35732,-129.77145 -92.89823,-7.43098 -187.34822,36.3216 -243.50816,116.28677 -2.69545,3.84218 -1.21845,8.9179 2.84309,10.83888 z"
+     id="path10"
+     inkscape:connector-curvature="0"
+     style="fill:url(#paint1_linear-8);stroke-width:11.53813553"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-4.png"
+     inkscape:export-xdpi="93.845863"
+     inkscape:export-ydpi="93.845863" />
+  <path
+     d="m 480.67876,444.2034 c -4.89322,-2.30275 -11.23404,-4.17844 -17.40207,-5.11664 -6.97788,-1.05144 -14.04256,1.39342 -18.87775,6.53806 -44.50371,47.38628 -98.01187,73.48079 -150.73831,73.48079 -47.42702,0 -87.90553,-28.82339 -105.65481,-75.38534 -1.41875,-3.72339 -5.24071,-5.45785 -9.3234,-4.51957 -1.62141,0.36919 -3.35869,1.44949 -3.06917,2.92791 12.16088,58.01676 56.75064,96.98938 116.33916,101.76506 72.85011,5.82681 146.91537,-28.48329 190.95581,-91.19057 2.11354,-3.013 0.95543,-6.99328 -2.22946,-8.4997 z"
+     id="path2-1"
+     inkscape:connector-curvature="0"
+     style="fill:url(#paint0_linear-3-6);stroke-width:9.04802322"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-5.png"
+     inkscape:export-xdpi="154.7299"
+     inkscape:export-ydpi="154.7299" />
+  <path
+     d="m 511.80482,282.9713 c 19.37089,0 35.90346,5.20157 49.07829,17.96566 1.38979,1.33554 1.36082,3.52428 -0.11577,4.80368 l -20.84756,18.30591 c -0.63695,0.56916 -1.4187,0.82426 -2.20049,0.82426 -0.81065,0 -1.65037,-0.28411 -2.31631,-0.88041 -6.28289,-5.54371 -13.52222,-7.87446 -22.17936,-7.87446 -18.9656,0 -31.53149,13.87253 -31.53149,31.61015 0,19.67048 12.56589,36.27079 33.76094,36.27079 9.09144,0 17.63371,-3.55314 24.23514,-9.57912 0.66591,-0.59708 1.50555,-0.90926 2.3162,-0.90926 0.75287,0 1.53457,0.25509 2.1426,0.76724 l 21.80301,18.19292 c 1.56354,1.33538 1.5925,3.55314 0.14483,4.91746 -14.10134,13.10427 -32.40002,19.52838 -52.49482,19.52838 -40.07281,0 -71.77791,-27.00464 -71.77791,-66.88659 0.0291,-38.06226 31.64726,-67.05661 69.9828,-67.05661 z"
+     id="path4-2"
+     inkscape:connector-curvature="0"
+     style="fill:#0a00b4;stroke-width:9.04802322"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-5.png"
+     inkscape:export-xdpi="154.7299"
+     inkscape:export-ydpi="154.7299" />
+  <path
+     d="m 425.69387,285.07495 c 2.46105,0 4.08247,2.50163 3.04013,4.69044 l -51.7709,108.84319 c -4.77736,10.03419 -18.18288,16.42937 -26.29094,16.42937 -11.29189,0 -21.57039,-6.45219 -26.31887,-16.51539 L 272.92981,289.76539 c -1.04232,-2.18881 0.66593,-4.66252 3.04008,-4.66252 h 34.22417 c 1.30288,0 2.57689,0.79626 3.09809,2.01865 l 35.17956,82.06557 c 0.43434,1.02336 1.4188,1.53551 2.37429,1.53551 0.95544,0 1.94074,-0.51215 2.37508,-1.5635 l 35.00586,-82.06558 c 0.5212,-1.22238 1.82408,-2.01857 3.09804,-2.01857 z"
+     id="path6-8"
+     inkscape:connector-curvature="0"
+     style="fill:#0a00b4;stroke-width:9.04802322"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-5.png"
+     inkscape:export-xdpi="154.7299"
+     inkscape:export-ydpi="154.7299" />
+  <path
+     d="m 202.8306,282.9713 c 19.3707,0 35.90397,5.20157 49.07796,17.96566 1.38973,1.33554 1.36076,3.52428 -0.11593,4.80368 l -20.84747,18.30591 c -0.63709,0.56916 -1.41883,0.82426 -2.20053,0.82426 -0.8107,0 -1.65032,-0.28411 -2.31626,-0.88041 -6.283,-5.54371 -13.52162,-7.87446 -22.17904,-7.87446 -18.96526,0 -31.53154,13.87253 -31.53154,31.61015 0,19.67048 12.56628,36.27079 33.761,36.27079 9.09185,0 17.63327,-3.55314 24.2347,-9.57912 0.66593,-0.59708 1.50555,-0.90926 2.31625,-0.90926 0.75371,0 1.5355,0.25509 2.14345,0.76724 l 21.80216,18.19292 c 1.56344,1.33538 1.59245,3.55314 0.14484,4.91746 -14.10051,13.10427 -32.40013,19.52838 -52.4944,19.52838 -40.07314,0 -71.77837,-27.00464 -71.77837,-66.88659 0.0291,-38.06226 31.61843,-67.05661 69.98316,-67.05661 z"
+     id="path8-9"
+     inkscape:connector-curvature="0"
+     style="fill:#0a00b4;stroke-width:9.04802322"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-5.png"
+     inkscape:export-xdpi="154.7299"
+     inkscape:export-ydpi="154.7299" />
+  <path
+     d="m 210.6484,255.79635 c 4.89324,2.30278 11.23431,4.17846 17.40144,5.11674 6.97872,1.05133 14.04338,-1.39349 18.8787,-6.53812 44.50262,-47.38606 98.01082,-73.48114 150.73733,-73.48114 47.42785,0 87.90605,28.82394 105.65551,75.38572 1.41871,3.72424 5.24067,5.45773 9.32311,4.51953 1.62138,-0.36919 3.3586,-1.44959 3.0691,-2.92794 -12.16053,-58.01709 -56.75099,-96.98913 -116.33946,-101.76471 -72.84932,-5.82726 -146.9155,28.48282 -190.95524,91.19024 -2.11373,3.01298 -0.95549,6.99328 2.22951,8.49968 z"
+     id="path10-7"
+     inkscape:connector-curvature="0"
+     style="fill:url(#paint1_linear-8-0);stroke-width:9.04802322"
+     inkscape:export-filename="C:\Users\suitedoalex\sites\cvc-logo-5.png"
+     inkscape:export-xdpi="154.7299"
+     inkscape:export-ydpi="154.7299" />
+</svg>
