@@ -163,7 +163,7 @@ em {
 }
 .btn-primary {
   background: var(--orange);
-  color: #fff;
+  color: var(--dark);
 }
 .btn-outline {
   background: transparent;
@@ -177,7 +177,7 @@ em {
 }
 .btn-white {
   background: #fff;
-  color: var(--orange);
+  color: var(--dark);
 }
 .btn-sm {
   padding: 8px 18px;
@@ -620,7 +620,7 @@ nav {
 .triade-copy + .triade-copy {
   margin-top: var(--sp-3);
   font-style: italic;
-  opacity: 0.55;
+  opacity: 0.85;
 }
 .triade-cards {
   display: flex;
@@ -660,7 +660,7 @@ nav {
   font-size: var(--sz-small);
   line-height: var(--lh-snug);
   letter-spacing: var(--ls-body);
-  opacity: 0.55;
+  opacity: 0.85;
 }
 
 /* ═══════════════════════════════════════════════════════
@@ -694,7 +694,7 @@ nav {
 }
 .serv-b2b {
   background: var(--orange);
-  color: #fff;
+  color: var(--dark);
 }
 .serv-b2c {
   background: transparent;
@@ -948,7 +948,7 @@ nav {
   font-weight: 700;
   letter-spacing: var(--ls-label);
   text-transform: uppercase;
-  color: var(--lavender);
+  color: #604d8a;
   margin-bottom: 4px;
 }
 .eco-linkedin-btn {
@@ -1026,15 +1026,14 @@ nav {
   font-family: var(--font-body);
   font-size: var(--sz-label);
   letter-spacing: var(--ls-body);
-  opacity: 0.4;
+  color: #636060;
 }
 .eco-pub-summary {
   font-family: var(--font-body);
   font-size: var(--sz-label);
   letter-spacing: var(--ls-body);
   line-height: var(--lh-snug);
-  color: var(--dark);
-  opacity: 0.6;
+  color: #575455;
   margin-top: 6px;
 }
 .eco-pub-link {
@@ -1077,7 +1076,7 @@ nav {
   font-size: var(--sz-small);
   line-height: var(--lh-snug);
   letter-spacing: var(--ls-body);
-  opacity: 0.7;
+  color: #575455;
   margin: 0;
 }
 .eco-video-slot {
@@ -1215,7 +1214,7 @@ nav {
 .logos-strip-label {
   font-family: var(--font-body);
   font-size: var(--sz-small);
-  color: var(--mid);
+  color: #636060;
   text-align: center;
   margin-bottom: var(--sp-4);
   letter-spacing: var(--ls-body);
@@ -1412,7 +1411,7 @@ footer {
   font-size: var(--sz-small);
   line-height: var(--lh-normal);
   letter-spacing: var(--ls-body);
-  opacity: 0.5;
+  opacity: 0.75;
   max-width: 240px;
   margin: var(--sp-2) 0 var(--sp-3);
 }
@@ -1469,7 +1468,7 @@ footer {
   letter-spacing: var(--ls-body);
   color: var(--areia);
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.72;
   transition: opacity 0.2s;
 }
 .footer-links a:hover {
@@ -1485,7 +1484,7 @@ footer {
   font-family: var(--font-body);
   font-size: var(--sz-label);
   letter-spacing: var(--ls-body);
-  opacity: 0.32;
+  opacity: 0.65;
 }
 
 /* ═══════════════════════════════════════════════════════

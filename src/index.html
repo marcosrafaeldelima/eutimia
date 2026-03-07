@@ -7,21 +7,25 @@
   <!-- Favicon com suporte a tema claro/escuro -->
   <link rel="icon" type="image/svg+xml" href="images/favicon-light.svg" media="(prefers-color-scheme: light)" />
   <link rel="icon" type="image/svg+xml" href="images/favicon-dark.svg" media="(prefers-color-scheme: dark)" />
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
-  <link href="https://fonts.googleapis.com/css2?family=Froda&family=Inter:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon-light.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Froda&family=Inter:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Froda&family=Inter:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" /></noscript>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
   <!-- ═══ NAV ═════════════════════════════════════════════ -->
   <nav>
+
     <div class="nav-inner">
 
       <!-- Logo: SVG original como <img>. Fallback texto Froda -->
       <a href="#" class="nav-logo" style="text-decoration:none;">
-        <img src="images/logo-primary.svg" alt="eutimia"
+        <img src="images/logo-primary.svg" alt="eutimia" width="120" height="34"
           onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
-        <img src="images/logo-primary.svg" alt="eutimia" class="nav-logo-fallback" style="display:none;height:34px;width:auto;" />
+        <img src="images/logo-primary.svg" alt="eutimia" class="nav-logo-fallback" width="120" height="34" style="display:none;height:34px;width:auto;" />
       </a>
 
       <ul class="nav-links">
@@ -37,6 +41,8 @@
       </div>
     </div>
   </nav>
+
+  <main>
 
   <!-- ═══ §1 — HERO ═══════════════════════════════════════ -->
   <section id="hero">
@@ -96,7 +102,10 @@
       </div>
 
       <div class="hero-visual">
-        <img src="images/flavia-3.png" alt="Flávia Conti" class="hero-photo" />
+        <picture>
+          <source srcset="images/flavia-3.webp" type="image/webp" />
+          <img src="images/flavia-3.png" alt="Flávia Conti" class="hero-photo" width="900" height="1200" fetchpriority="high" />
+        </picture>
       </div>
 
     </div>
@@ -237,14 +246,14 @@
             <img class="logo-img" src="images/toyota.svg" alt="Toyota" />
             <img class="logo-img" src="images/Logo_da_Azul_Linhas_Aéreas_Brasileiras.svg" alt="Azul" />
             <img class="logo-img" src="images/cvc-logo.svg" alt="CVC" />
-            <img class="logo-img" src="images/Banco_BV_Logo.svg.png" alt="Banco BV" />
-            <img class="logo-img" src="images/acate.png" alt="ACATE" />
+            <img class="logo-img" src="images/Banco_BV_Logo.webp" alt="Banco BV" width="180" height="180" />
+            <img class="logo-img" src="images/acate.webp" alt="ACATE" width="180" height="180" />
             <img class="logo-img" src="images/Bradesco.svg" alt="Bradesco" />
             <img class="logo-img" src="images/toyota.svg" alt="Toyota" />
             <img class="logo-img" src="images/Logo_da_Azul_Linhas_Aéreas_Brasileiras.svg" alt="Azul" />
             <img class="logo-img" src="images/cvc-logo.svg" alt="CVC" />
-            <img class="logo-img" src="images/Banco_BV_Logo.svg.png" alt="Banco BV" />
-            <img class="logo-img" src="images/acate.png" alt="ACATE" />
+            <img class="logo-img" src="images/Banco_BV_Logo.webp" alt="Banco BV" width="180" height="180" />
+            <img class="logo-img" src="images/acate.webp" alt="ACATE" width="180" height="180" />
           </div>
         </div>
       </div>
@@ -311,8 +320,11 @@
       <div class="quem-grid">
         <div class="quem-photo-wrap">
           <div class="quem-photo-bg"></div>
-          <img src="images/flavia-1.jpg" alt="Flávia Conti"
-            onerror="this.style.display='none';" />
+          <picture>
+            <source srcset="images/flavia-1.webp" type="image/webp" />
+            <img src="images/flavia-1.jpg" alt="Flávia Conti" width="700" height="860"
+              onerror="this.style.display='none';" loading="lazy" />
+          </picture>
           <div class="quem-badge">
             <div class="quem-badge-name">Flávia Conti</div>
             <div class="quem-badge-role">Doutoranda · Pesquisadora<br/>Consultora de Liderança</div>
@@ -334,14 +346,14 @@
           <div class="parceiros-lbl">Rede de parceiros</div>
           <div class="logos-carousel parceiros-carousel">
             <div class="logos-track">
-              <img class="logo-img" src="images/logos parceiros/GPIAE.png" alt="GPIAE" />
-              <img class="logo-img" src="images/logos parceiros/LGR.png" alt="LGR" />
-              <img class="logo-img" src="images/logos parceiros/ementor.png" alt="eMentor" />
-              <img class="logo-img" src="images/logos parceiros/ousaria.png" alt="Ousaria" />
-              <img class="logo-img" src="images/logos parceiros/GPIAE.png" alt="GPIAE" />
-              <img class="logo-img" src="images/logos parceiros/LGR.png" alt="LGR" />
-              <img class="logo-img" src="images/logos parceiros/ementor.png" alt="eMentor" />
-              <img class="logo-img" src="images/logos parceiros/ousaria.png" alt="Ousaria" />
+              <img class="logo-img" src="images/logos parceiros/GPIAE.webp" alt="GPIAE" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/LGR.webp" alt="LGR" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/ementor.webp" alt="eMentor" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/ousaria.webp" alt="Ousaria" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/GPIAE.webp" alt="GPIAE" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/LGR.webp" alt="LGR" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/ementor.webp" alt="eMentor" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/ousaria.webp" alt="Ousaria" width="180" height="180" />
             </div>
           </div>
         </div>
@@ -369,13 +381,15 @@
     </div>
   </section>
 
+  </main>
+
   <!-- ═══ FOOTER ══════════════════════════════════════════ -->
   <footer>
     <div class="container">
       <div class="footer-grid">
 
         <div class="footer-brand">
-          <img src="images/logo-pb.svg" alt="eutimia" style="height:44px;width:auto;"
+          <img src="images/logo-pb.svg" alt="eutimia" width="132" height="44" style="height:44px;width:auto;"
             onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
           <span style="font-family:var(--font-logo);font-size:22px;color:var(--orange);display:none;">eutimia</span>
           <p>Gestão do conhecimento para líderes. Filosofia, ciência e mercado em equilíbrio dinâmico.</p>
