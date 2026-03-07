@@ -64,22 +64,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-/* ═══════════════════════════════════════════════════════
-   BUTTON INTERACTIONS
-═══════════════════════════════════════════════════════ */
-document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll(".btn");
-
-  buttons.forEach((btn) => {
-    btn.addEventListener("mouseenter", function () {
-      this.style.transform = "translateY(-3px)";
-    });
-
-    btn.addEventListener("mouseleave", function () {
-      this.style.transform = "translateY(0)";
-    });
-  });
-});
 
 /* ═══════════════════════════════════════════════════════
    LAZY LOAD IMAGES
@@ -123,30 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-/* ═══════════════════════════════════════════════════════
-   FOOTER SOCIAL LINKS
-═══════════════════════════════════════════════════════ */
-document.addEventListener("DOMContentLoaded", function () {
-  const socialLinks = {
-    in: "https://linkedin.com",
-    ig: "https://instagram.com",
-    yt: "https://youtube.com",
-  };
-
-  document.querySelectorAll(".footer-icon").forEach((icon) => {
-    const label = icon.textContent.trim();
-    if (label === "coming") return; // Skip coming soon icons
-
-    icon.addEventListener("click", function () {
-      const url = socialLinks[label];
-      if (url) {
-        window.open(url, "_blank");
-      }
-    });
-
-    icon.style.cursor = "pointer";
-  });
-});
 
 
 /* ═══════════════════════════════════════════════════════

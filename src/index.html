@@ -3,7 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eutimia — Wireframe v2</title>
+  <title>Eutimia — Educação Corporativa e Mentoria de Liderança</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Eutimia: soluções em educação corporativa e mentoria de liderança que aplicam filosofia, ciência e gestão do conhecimento à realidade do mercado. Flávia Conti — doutoranda, pesquisadora e consultora." />
+  <meta name="keywords" content="educação corporativa, mentoria de liderança, gestão do conhecimento, liderança, Flávia Conti, Eutimia, consultoria, organizações, bem-estar, sustentabilidade" />
+  <meta name="author" content="Flávia Conti" />
+  <link rel="canonical" href="https://eutimia.cc/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://eutimia.cc/" />
+  <link rel="alternate" hreflang="en" href="https://eutimia.cc/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://eutimia.cc/" />
+
+  <!-- Open Graph (LinkedIn, WhatsApp, Facebook) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eutimia.cc/" />
+  <meta property="og:title" content="Eutimia — Educação Corporativa e Mentoria de Liderança" />
+  <meta property="og:description" content="Soluções em educação corporativa e mentoria que aplicam a ciência e a filosofia à realidade do mercado, destravando a inteligência coletiva da sua empresa." />
+  <meta property="og:image" content="https://eutimia.cc/images/og-cover.jpg" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Eutimia" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Eutimia — Educação Corporativa e Mentoria de Liderança" />
+  <meta name="twitter:description" content="Soluções em educação corporativa e mentoria que aplicam a ciência e a filosofia à realidade do mercado, destravando a inteligência coletiva da sua empresa." />
+  <meta name="twitter:image" content="https://eutimia.cc/images/og-cover.jpg" />
+
   <!-- Favicon com suporte a tema claro/escuro -->
   <link rel="icon" type="image/svg+xml" href="images/favicon-light.svg" media="(prefers-color-scheme: light)" />
   <link rel="icon" type="image/svg+xml" href="images/favicon-dark.svg" media="(prefers-color-scheme: dark)" />
@@ -16,8 +41,10 @@
 </head>
 <body>
 
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
   <!-- ═══ NAV ═════════════════════════════════════════════ -->
-  <nav>
+  <nav aria-label="Navegação principal">
 
     <div class="nav-inner">
 
@@ -28,6 +55,12 @@
         <img src="images/logo-primary.svg" alt="eutimia" class="nav-logo-fallback" width="120" height="34" style="display:none;height:34px;width:auto;" />
       </a>
 
+      <div class="nav-lang" aria-label="Idioma">
+        <a href="index.html" class="nav-lang-link active" aria-current="true" hreflang="pt-BR">PT</a>
+        <span class="nav-lang-sep" aria-hidden="true">/</span>
+        <a href="en/index.html" class="nav-lang-link" hreflang="en">EN</a>
+      </div>
+
       <ul class="nav-links">
         <li><a href="#triade">Filosofia</a></li>
         <li><a href="#servicos">Serviços</a></li>
@@ -36,18 +69,18 @@
       </ul>
 
       <div class="nav-cta">
-        <a href="https://www.app.ementor.com.br/agendamentos/create/2376/" class="btn btn-outline btn-sm" target="_blank" rel="noopener">Mentoria</a>
-        <a href="https://calendar.app.google/9yMaT7AXUVbbNoas6" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Diagnóstico B2B</a>
+        <a href="https://www.app.ementor.com.br/agendamentos/create/2376/" class="btn btn-outline btn-sm" target="_blank" rel="noopener" aria-label="Agendar Mentoria (abre em nova aba)">Mentoria</a>
+        <a href="https://calendar.app.google/9yMaT7AXUVbbNoas6" class="btn btn-primary btn-sm" target="_blank" rel="noopener" aria-label="Agendar Diagnóstico B2B (abre em nova aba)">Diagnóstico B2B</a>
       </div>
     </div>
   </nav>
 
-  <main>
+  <main id="main-content">
 
   <!-- ═══ §1 — HERO ═══════════════════════════════════════ -->
   <section id="hero">
     <!-- Animated gradient background -->
-    <svg style="position:absolute;width:0;height:0;" xmlns="http://www.w3.org/2000/svg">
+    <svg style="position:absolute;width:0;height:0;" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
       <defs>
         <filter id="hero-goo">
           <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
@@ -56,7 +89,7 @@
         </filter>
       </defs>
     </svg>
-    <div class="hero-bg-gradient">
+    <div class="hero-bg-gradient" aria-hidden="true">
       <div class="hero-gradient-container">
         <div class="hg1"></div>
         <div class="hg2"></div>
@@ -85,8 +118,8 @@
         </p>
 
         <div class="hero-btns">
-          <a href="https://calendar.app.google/9yMaT7AXUVbbNoas6" class="btn btn-primary" target="_blank" rel="noopener">Diagnóstico Gratuito</a>
-          <a href="https://www.app.ementor.com.br/agendamentos/create/2376/" class="btn btn-outline" target="_blank" rel="noopener">Mentoria de Liderança</a>
+          <a href="https://calendar.app.google/9yMaT7AXUVbbNoas6" class="btn btn-primary" target="_blank" rel="noopener" aria-label="Diagnóstico Gratuito (abre em nova aba)">Diagnóstico Gratuito</a>
+          <a href="https://www.app.ementor.com.br/agendamentos/create/2376/" class="btn btn-outline" target="_blank" rel="noopener" aria-label="Mentoria de Liderança (abre em nova aba)">Mentoria de Liderança</a>
         </div>
 
         <div class="hero-stats">
@@ -178,17 +211,17 @@
           <p class="serv-copy">
             Mapeamento de gaps e desenvolvimento de soluções sistêmicas para Organizações Intensivas em Conhecimento (OICs). O foco é construir uma cultura onde o conhecimento flui de forma orgânica, destravando a inteligência coletiva da equipe diante de cenários complexos.
           </p>
-          <a href="https://calendar.app.google/9yMaT7AXUVbbNoas6" class="btn btn-white" target="_blank" rel="noopener">Agendar Diagnóstico Gratuito</a>
+          <a href="https://calendar.app.google/9yMaT7AXUVbbNoas6" class="btn btn-white" target="_blank" rel="noopener" aria-label="Agendar Diagnóstico Gratuito (abre em nova aba)">Agendar Diagnóstico Gratuito</a>
           <div class="serv-deco"></div>
         </div>
 
         <div class="serv-card serv-b2c">
-          <div class="serv-tag" style="color:var(--orange)">B2C — Líderes</div>
+          <div class="serv-tag" style="color:var(--orange-dark)">B2C — Líderes</div>
           <div class="serv-title">Mentoria de Liderança</div>
           <p class="serv-copy">
             Espaço seguro para o autocultivo como líder. Desenvolve a capacidade de sustentar a tensão entre a necessidade de resultados e a urgência do cuidado, liderando com integridade, adaptação e menor desgaste.
           </p>
-          <a href="https://www.app.ementor.com.br/agendamentos/create/2376/" class="btn btn-primary" target="_blank" rel="noopener">Agendar Mentoria</a>
+          <a href="https://www.app.ementor.com.br/agendamentos/create/2376/" class="btn btn-primary" target="_blank" rel="noopener" aria-label="Agendar Mentoria de Liderança (abre em nova aba)">Agendar Mentoria</a>
           <div class="serv-deco"></div>
         </div>
       </div>
@@ -205,28 +238,28 @@
         <p class="body-copy">Resultados reais de líderes que transformaram suas formas de gerir, substituindo o desgaste pela fluidez e eficácia.</p>
       </div>
 
-      <div class="depo-carousel">
+      <div class="depo-carousel" role="region" aria-label="Depoimentos de clientes" aria-roledescription="carrossel">
         <div class="depo-track">
-          <div class="depo-card">
-            <div class="depo-quote-mark">"</div>
+          <div class="depo-card" role="group" aria-label="Depoimento 1 de 4">
+            <div class="depo-quote-mark" aria-hidden="true">"</div>
             <p class="depo-text">A Flávia é uma mentora incrível. Ela conduz muito bem a mentoria de uma forma simples, e a troca de informações e possibilidades é bem fluida e tranquila, com ótimos insights para o dia a dia.</p>
             <div class="depo-author">Claudio Norio Kawamoto</div>
             <div class="depo-role">Coordenador de Eng. Produto · Toyota do Brasil</div>
           </div>
-          <div class="depo-card">
-            <div class="depo-quote-mark">"</div>
+          <div class="depo-card" role="group" aria-label="Depoimento 2 de 4">
+            <div class="depo-quote-mark" aria-hidden="true">"</div>
             <p class="depo-text">Excelente, conseguiu ilustrar e exemplificar de forma clara soluções para o tema abordado. Obrigado pela comunicação clara e pelas soluções e ferramentas apresentadas — acredito que com a aplicação dos métodos vou conseguir dar seguimento na minha carreira de outra forma.</p>
             <div class="depo-author">Ricardo Marcondes de Paula</div>
             <div class="depo-role">Líder de Operação · Nestlé</div>
           </div>
-          <div class="depo-card">
-            <div class="depo-quote-mark">"</div>
+          <div class="depo-card" role="group" aria-label="Depoimento 3 de 4">
+            <div class="depo-quote-mark" aria-hidden="true">"</div>
             <p class="depo-text">A mentoria foi excelente. A mentora foi muito sincera, animada e demonstrou total domínio do assunto. Recebi dicas práticas que já fazem sentido para o meu momento e, além disso, já saímos com um próximo passo bem definido. Gostei muito da troca e da forma como tudo foi conduzido.</p>
             <div class="depo-author">Tâmara Ferreira Silva</div>
             <div class="depo-role">Especialista · Banco BMG</div>
           </div>
-          <div class="depo-card">
-            <div class="depo-quote-mark">"</div>
+          <div class="depo-card" role="group" aria-label="Depoimento 4 de 4">
+            <div class="depo-quote-mark" aria-hidden="true">"</div>
             <p class="depo-text">Não ficamos apenas filosofando. A Flávia trouxe uma visão pragmática e soluções aplicáveis para conectar pontos que parecem não se resolver no dia a dia. Saio com um plano de ação claro para aplicar.</p>
             <div class="depo-author">Gregory Cavichiolli</div>
             <div class="depo-role">Tech Lead · Youse Seguros</div>
@@ -248,12 +281,12 @@
             <img class="logo-img" src="images/cvc-logo.svg" alt="CVC" />
             <img class="logo-img" src="images/Banco_BV_Logo.webp" alt="Banco BV" width="180" height="180" />
             <img class="logo-img" src="images/acate.webp" alt="ACATE" width="180" height="180" />
-            <img class="logo-img" src="images/Bradesco.svg" alt="Bradesco" />
-            <img class="logo-img" src="images/toyota.svg" alt="Toyota" />
-            <img class="logo-img" src="images/Logo_da_Azul_Linhas_Aéreas_Brasileiras.svg" alt="Azul" />
-            <img class="logo-img" src="images/cvc-logo.svg" alt="CVC" />
-            <img class="logo-img" src="images/Banco_BV_Logo.webp" alt="Banco BV" width="180" height="180" />
-            <img class="logo-img" src="images/acate.webp" alt="ACATE" width="180" height="180" />
+            <img class="logo-img" src="images/Bradesco.svg" alt="" aria-hidden="true" />
+            <img class="logo-img" src="images/toyota.svg" alt="" aria-hidden="true" />
+            <img class="logo-img" src="images/Logo_da_Azul_Linhas_Aéreas_Brasileiras.svg" alt="" aria-hidden="true" />
+            <img class="logo-img" src="images/cvc-logo.svg" alt="" aria-hidden="true" />
+            <img class="logo-img" src="images/Banco_BV_Logo.webp" alt="" aria-hidden="true" width="180" height="180" />
+            <img class="logo-img" src="images/acate.webp" alt="" aria-hidden="true" width="180" height="180" />
           </div>
         </div>
       </div>
@@ -282,13 +315,13 @@
           <div class="eco-pub-meta">Repositório UFSC — PPGEGC · 2025</div>
           <div class="eco-pub-summary">O método Arbor, inspirado na filosofia taoísta, propõe promover autogestão, colaboração e ambientes organizacionais mais sustentáveis em pequenas organizações.</div>
         </a>
-        <a class="eco-pub eco-pub-link" href="http://doi.org/978-65-84549-37-1.005" target="_blank" rel="noopener">
+        <a class="eco-pub eco-pub-link" href="https://drive.google.com/file/d/1L07gYymxOZlKC47XOsYb729ty7Jp7QoJ/view" target="_blank" rel="noopener">
           <div class="eco-pub-tag eco-pub-tag--lime">Capítulo de Livro</div>
           <div class="eco-pub-title">Análise do Método Lótus para Desenvolvimento Humano e Gestão de Pessoas em Organizações Intensivas em Conhecimento</div>
           <div class="eco-pub-meta">Desenvolvimento Humano &amp; Gestão — Volume 2 · 2024</div>
           <div class="eco-pub-summary">No cenário BANI, o Método Lótus propõe uma abordagem integrada que fortalece propósito, autorreflexão e rede de apoio para uma gestão mais eficaz.</div>
         </a>
-        <a class="eco-pub eco-pub-link" href="https://www.scirp.org/journal/jss" target="_blank" rel="noopener">
+        <a class="eco-pub eco-pub-link" href="https://www.scirp.org/journal/paperinformation?paperid=133751" target="_blank" rel="noopener">
           <div class="eco-pub-tag eco-pub-tag--orange">Artigo Científico</div>
           <div class="eco-pub-title">Analysis of Knowledge Management Practices for Knowledge Intensive Organizations Self-Management</div>
           <div class="eco-pub-meta">Open Journal of Social Sciences · 2024</div>
@@ -308,7 +341,7 @@
           <div class="eco-linkedin-label">LinkedIn</div>
           <p class="eco-linkedin-text">Reflexões sobre gestão do conhecimento, liderança e sustentabilidade publicadas semanalmente.</p>
         </div>
-        <a href="https://www.linkedin.com/in/flaviaconti/" target="_blank" rel="noopener" class="btn eco-linkedin-btn">Seguir →</a>
+        <a href="https://www.linkedin.com/in/flaviaconti/" target="_blank" rel="noopener" class="btn eco-linkedin-btn" aria-label="Seguir Flávia Conti no LinkedIn (abre em nova aba)">Seguir →</a>
       </div>
     </div>
   </section>
@@ -350,10 +383,10 @@
               <img class="logo-img" src="images/logos parceiros/LGR.webp" alt="LGR" width="180" height="180" />
               <img class="logo-img" src="images/logos parceiros/ementor.webp" alt="eMentor" width="180" height="180" />
               <img class="logo-img" src="images/logos parceiros/ousaria.webp" alt="Ousaria" width="180" height="180" />
-              <img class="logo-img" src="images/logos parceiros/GPIAE.webp" alt="GPIAE" width="180" height="180" />
-              <img class="logo-img" src="images/logos parceiros/LGR.webp" alt="LGR" width="180" height="180" />
-              <img class="logo-img" src="images/logos parceiros/ementor.webp" alt="eMentor" width="180" height="180" />
-              <img class="logo-img" src="images/logos parceiros/ousaria.webp" alt="Ousaria" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/GPIAE.webp" alt="" aria-hidden="true" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/LGR.webp" alt="" aria-hidden="true" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/ementor.webp" alt="" aria-hidden="true" width="180" height="180" />
+              <img class="logo-img" src="images/logos parceiros/ousaria.webp" alt="" aria-hidden="true" width="180" height="180" />
             </div>
           </div>
         </div>
@@ -363,7 +396,7 @@
 
   <!-- ═══ QUOTE ═══════════════════════════════════════════ -->
   <section id="quote">
-    <div class="quote-bg">
+    <div class="quote-bg" aria-hidden="true">
       <div class="quote-gradient-container">
         <div class="qg1"></div>
         <div class="qg2"></div>
@@ -394,31 +427,31 @@
           <span style="font-family:var(--font-logo);font-size:22px;color:var(--orange);display:none;">eutimia</span>
           <p>Gestão do conhecimento para líderes. Filosofia, ciência e mercado em equilíbrio dinâmico.</p>
           <div class="footer-social">
-            <a href="https://www.linkedin.com/in/flaviaconti/" target="_blank" rel="noopener" class="footer-icon">in</a>
-            <a href="https://www.instagram.com/flaviapconti/" target="_blank" rel="noopener" class="footer-icon">ig</a>
-            <div class="footer-icon footer-icon-coming">yt</div>
+            <a href="https://www.linkedin.com/in/flaviaconti/" target="_blank" rel="noopener" class="footer-icon" aria-label="LinkedIn da Flávia Conti (abre em nova aba)">in</a>
+            <a href="https://www.instagram.com/flaviapconti/" target="_blank" rel="noopener" class="footer-icon" aria-label="Instagram da Flávia Conti (abre em nova aba)">ig</a>
+            <a href="https://www.youtube.com/@eutimiaporflavia" target="_blank" rel="noopener" class="footer-icon" aria-label="YouTube da Eutimia (abre em nova aba)">yt</a>
           </div>
         </div>
 
         <div>
-          <div class="footer-col-title">Agendamentos</div>
+          <h3 class="footer-col-title">Agendamentos</h3>
           <ul class="footer-links">
-            <li><a href="https://calendar.app.google/9yMaT7AXUVbbNoas6" target="_blank" rel="noopener">Diagnóstico B2B</a></li>
-            <li><a href="https://www.app.ementor.com.br/agendamentos/create/2376/" target="_blank" rel="noopener">Mentoria eMentor</a></li>
+            <li><a href="https://calendar.app.google/9yMaT7AXUVbbNoas6" target="_blank" rel="noopener" aria-label="Agendar Diagnóstico B2B (abre em nova aba)">Diagnóstico B2B</a></li>
+            <li><a href="https://www.app.ementor.com.br/agendamentos/create/2376/" target="_blank" rel="noopener" aria-label="Agendar Mentoria no eMentor (abre em nova aba)">Mentoria eMentor</a></li>
           </ul>
         </div>
 
         <div>
-          <div class="footer-col-title">Publicações</div>
+          <h3 class="footer-col-title">Publicações</h3>
           <ul class="footer-links">
             <li><a href="#ecossistema">Publicações Acadêmicas</a></li>
-            <li><a href="https://www.linkedin.com/in/flaviaconti/" target="_blank" rel="noopener">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/flaviapconti/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/flaviaconti/" target="_blank" rel="noopener" aria-label="LinkedIn da Flávia Conti (abre em nova aba)">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/flaviapconti/" target="_blank" rel="noopener" aria-label="Instagram da Flávia Conti (abre em nova aba)">Instagram</a></li>
           </ul>
         </div>
 
         <div>
-          <div class="footer-col-title">Contato</div>
+          <h3 class="footer-col-title">Contato</h3>
           <ul class="footer-links">
             <li><a href="#">contato@eutimia.com</a></li>
             <li><a href="#quemsomos">Sobre a Eutimia</a></li>
