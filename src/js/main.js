@@ -148,5 +148,57 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+/* ═══════════════════════════════════════════════════════
+   DEPOIMENTOS CAROUSEL
+═══════════════════════════════════════════════════════ */
+document.addEventListener("DOMContentLoaded", function () {
+  const track = document.querySelector(".depo-track");
+  const prevBtn = document.querySelector(".depo-arrow-prev");
+  const nextBtn = document.querySelector(".depo-arrow-next");
+  if (!track || !prevBtn || !nextBtn) return;
+
+  const VISIBLE = window.innerWidth <= 768 ? 1 : 3;
+  const origCards = Array.from(track.children);
+  const TOTAL = origCards.length;
+
+  // Prepend clone of last card (buffer for prev)
+  track.insertBefore(origCards[TOTAL - 1].cloneNode(true), track.firstChild);
+  // Append VISIBLE clones of first cards (buffer for next)
+  for (let i = 0; i < VISIBLE; i++) {
+    track.appendChild(origCards[i % TOTAL].cloneNode(true));
+  }
+
+  let current = 1; // start at first real card (after the prepended clone)
+
+  function jump(animate) {
+    const cardWidth = track.children[0].offsetWidth;
+    const gap = 20;
+    if (!animate) {
+      track.style.transition = "none";
+      track.style.transform = `translateX(-${current * (cardWidth + gap)}px)`;
+      track.offsetHeight; // force reflow
+      track.style.transition = "";
+    } else {
+      track.style.transform = `translateX(-${current * (cardWidth + gap)}px)`;
+    }
+  }
+
+  track.addEventListener("transitionend", function () {
+    if (current >= 1 + TOTAL) {
+      current -= TOTAL;
+      jump(false);
+    } else if (current < 1) {
+      current += TOTAL;
+      jump(false);
+    }
+  });
+
+  jump(false);
+
+  nextBtn.addEventListener("click", function () { current++; jump(true); });
+  prevBtn.addEventListener("click", function () { current--; jump(true); });
+});
+
 console.log("✓ Eutimia - App initialized");
 
